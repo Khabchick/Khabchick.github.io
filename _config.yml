@@ -14,7 +14,12 @@ email: khabib.ka@mail.ru
 # Social links
 github_username: Khabchick
 
-about_title: 
+# About Section
+about_title: Обо мне
+#about_profile_image: images/profile.jpg
+about_content: |
+  Учусь, работаю.
+  
 
 content:
   - title: Скиллы
