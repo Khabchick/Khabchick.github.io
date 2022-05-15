@@ -1,0 +1,67 @@
+# Site
+repository:  Khabchick/Khabchick.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Манатилов Габиб
+title: C# developer
+email: khabib.ka@mail.ru
+
+
+# Social links
+github_username:  Khabchick
+
+
+content:
+  - title: Скиллы
+    layout: list
+    content:
+      - layout: left
+        description: |
+          C#, js, Asp.Net core, EF, WPF, Vue.js
+      - layout: left
+        title: Инструментарий
+        description: |
+          Github, GitLab, Jira, Confluence
+
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Avanpost
+        link: avanpost.ru
+        sub_title: C# developer
+        caption: Январь 2022 — Май 2022 (4 месяца)
+        description: |
+            - писал адаптеры для взаимодействия Api
+            - исправлял баги 
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2018 - 2022
+        sub_title: Бакалавриат "Информационные системы и технологии"
+        description: |
+          Пробовал писать сайты самостоятельно и работал в команде.
+          
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
