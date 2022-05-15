@@ -18,7 +18,10 @@ github_username: Khabchick
 about_title: Обо мне
 #about_profile_image: images/profile.jpg
 about_content: |
-  Учусь, работаю.
+  - content: 
+    - layout: left
+      description: |
+        Учусь, работаю.
   
 
 content:
