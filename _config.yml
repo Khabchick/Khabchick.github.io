@@ -1,0 +1,100 @@
+# Site
+repository: Khabchick/Khabchick.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Манатилов Габиб
+title: Backend developer
+email: khabchick@gmail.com
+
+
+# Social links
+github_username: Khabchick
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Additional icon links
+additional_links:
+- title: telegram
+  icon: fab fa-telegram
+  url: https://telegram.me/khabchick
+
+
+# About Section
+about_title: Обо мне
+#about_profile_image: images/profile.jpg
+about_content: |
+  Попробовал множество направлений разработки. Писал на C#, Python, Js, C++, Java. С февраля 2020 года пишу на С#.
+  С апреля 2022 года пишу на Go. В свободное время читаю техническую литературу, играю в игры и в шахматы.
+  
+
+content:
+  - title: Скиллы
+    layout: list
+    content:
+      - layout: left
+        title: Golang
+        description: |
+          gin, gorm, viper, sarama, cobra
+    
+      - layout: left
+        title: C#
+        description: |
+          Asp.Net core, EF, WPF
+        
+      - layout: left
+        title: Инструментарий
+        description: |
+          Kafka, Redis, PostgreSQL, Docker, Linux, gRPC, Prometheus, Grafana, Rest, HTTP,
+          Nginx, Mysql, k8s, Github, GitLab, Jira, Confluence, Jenkins, Clickhouse, ElasticSearch
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Avanpost
+        link: avanpost.ru
+        sub_title: C# developer
+        caption: Январь 2021 — настоящее время
+        description: |
+            - принимал участие в развитии продукта
+            - писал адаптеры для взаимодействия Api
+            - работал с базами данных(в основном PostgreSQL)
+            - настраивал CI/CD(Jenkins, Gitlab)
+            - исправлял баги 
+            - переносил скрипты c python на C#
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2018 - 2022
+        sub_title: Бакалавриат "Информационные системы и технологии"
+        description: |
+          Освоил основы программирования, пробовал писать сайты самостоятельно и работал в команде.
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2022 - настоящее время
+        sub_title: Магистратура "Информационные системы и технологии"
+        description: |
+          Пишу небольшие мобильные приложения.
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
