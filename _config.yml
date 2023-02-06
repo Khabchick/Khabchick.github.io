@@ -50,7 +50,7 @@ content:
         title: Инструментарий
         description: |
           Kafka, Redis, PostgreSQL, Docker, Linux, gRPC, Prometheus, Grafana, Rest, HTTP,
-          Nginx, Mysql, k8s, Github, GitLab, Jira, Confluence, Jenkins, Clickhouse, ElasticSearch
+          Nginx, Mysql, k8s, Github, GitLab, Jira, Confluence, Jenkins, Clickhouse
 
   - title: Опыт работы
     layout: list
