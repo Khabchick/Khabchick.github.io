@@ -37,15 +37,10 @@ content:
     layout: list
     content:
       - layout: left
-        title: Golang
+        title: Языки
         description: |
-          gin, gorm, viper, sarama, cobra
+          Golang, C#
     
-      - layout: left
-        title: C#
-        description: |
-          Asp.Net core, EF, WPF
-        
       - layout: left
         title: Инструментарий
         description: |
