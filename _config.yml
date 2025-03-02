@@ -54,7 +54,7 @@ content:
         title: Avanpost
         link: avanpost.ru
         sub_title: C# developer
-        caption: Январь 2021 — февраль 2022
+        caption: Январь 2021 — февраль 2023
         description: |
             - принимал участие в развитии продукта
             - писал адаптеры для взаимодействия Api (REST, SOAP, gRPC)
@@ -64,7 +64,7 @@ content:
         title: Sbertech
         link: sbertech.ru
         sub_title: Golang developer
-        caption: Апрель 2022 — настоящее время
+        caption: Апрель 2023 — настоящее время
         description: |
             - Разработка микросервисов
             - Реализация фич
