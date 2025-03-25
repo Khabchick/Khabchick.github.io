@@ -28,11 +28,11 @@ additional_links:
 about_title: Обо мне
 #about_profile_image: images/profile.jpg
 about_content: |
-  ПоАктивно развиваюсь в IT направлении. В поиске интересных задач и проектов.
+  Активно развиваюсь в IT направлении. В поиске интересных задач и проектов.
   
 
 content:
-  - title: Скиллы
+  - title: Скилы
     layout: list
     content:
       - layout: left
